@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "948789193088",
+    "project_id": "see-it-through-c8ee9",
+    "storage_bucket": "see-it-through-c8ee9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948789193088:android:9a762e05debe2afd443965",
+        "android_client_info": {
+          "package_name": "com.varsitymessaging.seeitthrough"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE-OfvAcWU2eSBCdSPijhbQsCewtcBbxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

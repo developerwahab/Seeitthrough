@@ -1,0 +1,117 @@
+{
+  "expo": {
+    "name": "See It Through",
+    "slug": "see-it-through",
+    "version": "1.0.0",
+    "icon": "./assets/icon/fg_padded.png",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff",
+      "barStyle": "dark-content"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#ffffff",
+      "barStyle": "dark-content"
+    },
+    "plugins": [
+      "./app.plugin.js",
+      [
+        "expo-notifications",
+        {
+          "sounds": [
+            "./assets/notify/blunt_1.wav",
+            "./assets/notify/blunt_2.wav",
+            "./assets/notify/blunt_3.wav",
+            "./assets/notify/blunt_4.wav",
+            "./assets/notify/blunt_5.wav",
+            "./assets/notify/drill_1.wav",
+            "./assets/notify/drill_2.wav",
+            "./assets/notify/drill_3.wav",
+            "./assets/notify/drill_4.wav",
+            "./assets/notify/drill_5.wav",
+            "./assets/notify/supportive_1.wav",
+            "./assets/notify/supportive_2.wav",
+            "./assets/notify/supportive_3.wav",
+            "./assets/notify/supportive_4.wav",
+            "./assets/notify/supportive_5.wav",
+            "./assets/notify/spouse_1.wav",
+            "./assets/notify/spouse_2.wav",
+            "./assets/notify/spouse_3.wav",
+            "./assets/notify/spouse_4.wav",
+            "./assets/notify/spouse_5.wav"
+          ]
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "javaVersion": "17",
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 24,
+            "kotlinVersion": "2.0.20",
+            "androidGradlePluginVersion": "8.5.2",
+            "gradleVersion": "8.7",
+            "gradleProperties": {
+              "org.gradle.jvmargs": "-Xmx4g -Dkotlin.daemon.jvm.options=-Xmx4g",
+              "android.useAndroidX": "true",
+              "android.enableJetifier": "true",
+              "kotlin.code.style": "official"
+            }
+          }
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "android_app_id": "ca-app-pub-7665935090660965~3989114106"
+        }
+      ],
+      "expo-iap"
+    ],
+    "android": {
+      "newArchEnabled": true,
+      "versionCode": 44,
+      "package": "com.varsitymessaging.seeitthrough",
+      "googleServicesFile": "./google-services.json",
+      "backgroundColor": "#ffffff",
+      "splash": {
+        "backgroundColor": "#ffffff",
+        "resizeMode": "contain"
+      },
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK",
+        "SCHEDULE_EXACT_ALARM",
+        "READ_CALENDAR",
+        "com.android.vending.BILLING",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_DATA_SYNC",
+        "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon/fg_padded.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7881f1c9-fca4-439f-8af5-5166a13a3971"
+      }
+    },
+    "owner": "expouser1122",
+    "ios": {
+      "bundleIdentifier": "com.varsitymessaging.seeitthrough"
+    }
+  }
+}
